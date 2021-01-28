@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/geral.css">
+    <link rel="stylesheet" href="./entrar.css">
+    <link href="/assets/fa/font-awesome.min.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <div class="registrar">
+        
+        <div class="formulario-lateral">
+            <div class="top">
+                <span class="title">Registrar</span>
+                <a href="/"><i class="fa fa-chevron-left cancel clickable"></i></a>
+            </div>
+            
+            <div class="form">
+                <img class="logotipo" src="/assets/images/logo.png" alt="">
+                <form action="/" method="post">
+                    <input type="text" id="name" required placeholder="Name ...">
+                    <input type="email" id="email" required pattern=".*?@.*?\.[a-zA-Z]+$" placeholder="Email ...">
+                    <input type="password" id="password" required minlength="8" placeholder="Password ...">
+                    <input type="password" id="password" required minlength="8" placeholder="Confirmar password ...">
+                    <div class="action">
+                        <input type="submit"class="button submit" value="Registrar" />
+                    </div>
+                </form>
+            </div>
+            <div class="bottom">
+                <a href="./entrar.html" class="registro clickable">Ja tenho uma conta</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

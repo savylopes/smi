@@ -1,0 +1,28 @@
+@font-face {
+    font-family: Arino;
+    src: url(/assets/fonts/Arimo-Regular.ttf);
+}
+
+body{
+    margin: 0px;
+    font-family: Arino;
+}
+a{
+    font-family: Arino;
+}
+
+input,
+.button{
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 18px;
+    padding: 12px 0px;
+    font-family: Arino;
+}
+
+.button{
+    cursor: pointer;
+    padding-left: 30px;
+    padding-right: 30px;
+}

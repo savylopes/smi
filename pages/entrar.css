@@ -1,0 +1,98 @@
+
+body{
+    background-image: url(/assets/images/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+
+    height: 100vh;
+}
+
+.formulario-lateral{
+    position: absolute;
+    right: 0px;
+    width: 500px;
+    margin-left: auto;
+    background-color: rgb(255, 253, 253);
+    height: fit-content;
+    min-height: 100vmin;
+    color: rgb(0, 0, 0);
+    /*box-shadow: 0px 0px 10px 0px #000;*/
+}
+
+.formulario-lateral .title{
+    font-size: 30px;
+}
+.formulario-lateral .cancel{
+    font-size: 25px;
+    float: right;
+    font-weight: 100;
+    margin-right: 20px;
+}
+.formulario-lateral a {
+    color: #000;
+}
+
+.formulario-lateral .form input{
+    border-color: #000;
+    display: block;
+    margin: 10px 0px;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 30px;
+}
+
+.formulario-lateral .form input.button{
+    margin-top: 0px;
+    color: #fff;
+    background-color: #111;
+    font-size: 20px;
+    border: none;
+    width: 120px;
+}
+
+.formulario-lateral .form input:invalid{
+    border-color: red;
+}
+.formulario-lateral .form input:focus{
+    border: none;
+}
+
+.formulario-lateral .form {
+    margin: 0px auto;
+    width: 350px;
+    margin-bottom: 200px;
+}
+.formulario-lateral .form form{
+    margin-top: 100px;
+}
+.formulario-lateral .form .action{
+    margin: 20px auto;
+    width: 100%;
+}
+
+.formulario-lateral .form .action .recuperar-password{
+    float: left;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.formulario-lateral .form .action .submit{
+    float: right;
+}
+.formulario-lateral .bottom{
+    position: inherit;
+    bottom: 20px;
+    margin-left: 20px;
+}
+.formulario-lateral .top{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.logotipo{
+    display: block;
+    width:200px;
+    margin: 10px auto;
+}

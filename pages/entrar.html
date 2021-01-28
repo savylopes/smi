@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/geral.css">
+    <link rel="stylesheet" href="./entrar.css">
+    <link href="/assets/fa/font-awesome.min.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <div class="entrar">
+        
+        <div class="formulario-lateral">
+            <div class="top">
+                <span class="title">Entrar</span>
+                <a href="/"><i class="fa fa-chevron-left cancel clickable"></i></a>
+            </div>
+            
+            <div class="form">
+                <img class="logotipo" src="/assets/images/logo.png" alt="">
+                <form action="/" method="post">
+                    <input type="text" id="email" required pattern=".*?@.*?\.[a-zA-Z]+$" placeholder="Email ...">
+                    <input type="password" required minlength="8" id="password" placeholder="Password ...">
+                    <div class="action">
+                        <a href="/" class="recuperar-password clickable">Recuperar palavra-pass</a>
+                        <input type="submit" class="button submit" value="Entrar" />
+                    </div>
+                </form>
+            </div>
+            <div class="bottom">
+                <a href="./registrar.html" class="registro clickable">Nao tenho uma conta</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
