@@ -34,13 +34,8 @@ body{
 }
 
 .formulario-lateral .form input{
-    border-color: #000;
-    display: block;
-    margin: 10px 0px;
-    text-align: center;
-    width: 100%;
-    background-color: transparent;
-    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .formulario-lateral .form input.button{
@@ -49,7 +44,6 @@ body{
     background-color: #111;
     font-size: 20px;
     border: none;
-    width: 120px;
 }
 
 .formulario-lateral .form input:invalid{

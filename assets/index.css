@@ -40,7 +40,6 @@
     background-size: cover;
     background-position: center;
     max-width: 100%;
-    height: 100vh;
 }
     .header .description{
         display: table;
@@ -60,3 +59,85 @@
         .header .description .button{
             background-color: #fff;
         }
+        .header .description  p{
+            font-size: 18px;
+        }
+
+#sobre .half-left img{
+    display: block;
+    height: 75vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50px;
+}
+
+#sobre>.half-right h1 {
+    font-size: 50px;
+}
+
+#sobre>.half-right p {
+    font-size: 25px;
+}
+
+#servicos>.half-right,
+#servicos>.half-left{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#servicos>.half-right{
+    background-color: #000;
+    color: #fff;
+}
+
+    #servicos>.half-right .button{
+        background-color: #fff;
+        color: #000;
+    }
+
+    #servicos>.half-left .button{
+        background-color: #000;
+        color: #fff;
+    }
+
+.service{
+    width: 50ch;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+    .service img{
+        width: 300px;
+        border-radius: 30px;
+    }
+
+    .service .button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+#contactos{
+    background-color: #000;
+    color: #fff;
+    min-height: fit-content;
+}
+    #contactos .message input,
+    #contactos .message textarea{
+        border-color: #fff;
+        border-style: solid;
+    }
+
+    #contactos .message input,
+    #contactos .message textarea,
+    #contactos .message .button{
+        margin-bottom: 30px;
+    }
+
+    #contactos .message .button{
+        background-color: #fff;
+        float: right;
+    }
+

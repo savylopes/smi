@@ -6,13 +6,16 @@
 body{
     margin: 0px;
     font-family: Arino;
+    line-height: 1.5em;
 }
-a{
+a,p,h1,h2,h3,h4{
     font-family: Arino;
+    line-height: 1.5em;
 }
 
 input,
-.button{
+.button,
+textarea{
     border-radius: 5px;
     border-width: 1px;
     border-style: solid;
@@ -21,8 +24,47 @@ input,
     font-family: Arino;
 }
 
+input,textarea{
+    border-color: #000;
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: transparent;
+}
+
 .button{
     cursor: pointer;
     padding-left: 30px;
     padding-right: 30px;
+    width: fit-content;
+    background-color: #444;
 }
+
+section{
+    min-height: 100vh;
+}
+    section>.title{
+        text-align: center;
+        font-size: 60px;
+        margin: 0px;
+        margin-bottom: 70px;
+        position: relative;
+        top: 30px
+    }
+    section>.half-right{
+        display: inline-block;
+        width: 50%;
+        float: right;
+        box-sizing: border-box;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    
+    section>.half-left{
+        display: inline-block;
+        width: 50%;
+        margin: 0px;
+        box-sizing: border-box;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
