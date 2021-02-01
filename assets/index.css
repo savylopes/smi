@@ -1,5 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar{
     background-color: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
     .navbar .brand{
         height: fit-content;
