@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/geral.css">
+    <link rel="stylesheet" href="./casa.css">
+    <link href="/assets/fa/font-awesome.min.css" rel="stylesheet">
+    <title>Login</title>
+</head>
+<body>
+    <div class="registrar">
+        
+        <div class="formulario-lateral">
+            <div class="top">
+                <span class="title">Casa</span>
+                <a href="/"><i class="fa fa-chevron-left cancel clickable"></i></a>
+            </div>
+            
+            <div class="form">
+                <img class="logotipo" src="/assets/images/logo.png" alt="">
+                <form action="/" method="post">
+
+                    <input type="text" id="name" required placeholder="Nome ...">
+                    <input type="text" id="cidade" required placeholder="Cidade ...">
+                    <input type="text" id="endress" required placeholder="Endreço ...">
+                    <input type="number" id="phone" required minlength="7" maxlength="7" placeholder="Telefone ...">
+                    <input type="number" id="phone" required minlength="7" maxlength="7" placeholder="Telemovel ...">
+                    <input type="text" id="email" required pattern=".*?@.*?\.[a-zA-Z]+$" placeholder="Email ...">
+                    <label for="data">Data</label>
+                    <input type="date" id="date" required  placeholder="">
+                    <label for="time">Hora</label>
+                    <input type="time" id="time" required  placeholder="">
+
+                    <div class="action">
+                        <input type="submit"class="button submit" value="Enviar" />
+                    </div>
+                </form>
+            </div>
+            <div class="bottom">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
